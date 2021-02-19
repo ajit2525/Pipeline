@@ -1,5 +1,5 @@
 pipeline {
-      agent any {
+      agent any 
       stages{
          stage('Build') {
              steps {
@@ -8,7 +8,7 @@ pipeline {
                     echo "By the way,I can do more stuff in here"
                     ls -lah
                     '''
-              }
+              
   
             }
          }
